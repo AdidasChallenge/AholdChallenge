@@ -1,0 +1,6 @@
+framework module Pods_AholdChallengeTests {
+  umbrella header "Pods-AholdChallengeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

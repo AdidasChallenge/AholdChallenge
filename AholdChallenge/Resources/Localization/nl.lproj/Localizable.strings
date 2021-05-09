@@ -1,0 +1,17 @@
+/*
+  Localizable+Extension.swift
+ 
+  AholdChallenge
+  Created by Jesse Klijn on 04/05/2021.
+ */
+
+"error_row_cta" = "Opnieuw";
+"search_no_result_title" = "We hebben '%@' niet gevonden.";
+"search_no_result_description" = "We zoeken op titel en descripties.";
+"search_input_cancel" = "Annuleer";
+"search_input_placeholder" = "Zoek voor een product...";
+"search_error_description" = "We could not process your search request. Please try again.";
+"search_error_title" = "Oops..";
+"search_error_cta" = "Retry";
+"search_error_cancel" = "Cancel";
+"art_object_header_view_title" = "AholdChallenge - Klijn";
