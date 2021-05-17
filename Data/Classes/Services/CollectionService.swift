@@ -13,6 +13,7 @@ final class CollectionService: CollectionWorker {
     
     private let collectionEntityMapper: CollectionEntityMapper
     private let productsBaseApiUrl: String = "https://www.rijksmuseum.nl/api/en/collection"
+    private let key: String = "0fiuZFh4"
     
     init(collectionEntityMapper: CollectionEntityMapper) {
         self.collectionEntityMapper = collectionEntityMapper
@@ -22,7 +23,7 @@ final class CollectionService: CollectionWorker {
         let pageCount = count / divider
         
         let parameters: [String: Any] = [
-            "key": "0fiuZFh4",
+            "key": key,
             "format": "json",
             "culture": "en",
             "p": "\(pageCount)",
